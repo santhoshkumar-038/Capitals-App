@@ -1,0 +1,62 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  height: 100vh;
+  width: 80vw;
+  background-color: #93c5fd;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.capitals-container {
+  width: 30vw;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 60px;
+}
+.text {
+  font-size: 18px;
+  font-weight: 400;
+}
+.option {
+  height: 30px;
+  width: 120px;
+  font-weight: bold;
+}
+.country-name {
+  font-size: 24px;
+  padding-top: 10px;
+}
+.heading {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .capitals-container {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .capitals-container {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .capitals-container {
+    width: 70vw;
+  }
+  .app-container {
+    width: 100vw;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
